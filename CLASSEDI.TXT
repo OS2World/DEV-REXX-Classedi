@@ -1,0 +1,93 @@
+   ###    ###     #  ####  ##### #####  ###  #   #    ### ###  #  #   ###  #
+  #   #  #  #    #  #   #    #   #     #   # ## ##     #   #  # # #    #  # #
+  #   #  ##     #      #     #   #     #   # # # #     #   #  # # #    #  # #
+ #   #    ##   #     ##      #   ####  ##### #   #     #   #  ### #    #  ###
+ #   #  #  #  #     #        #   #     #   # #   #     #   #  # # #    #  # #
+  ###   ###  #    #####      #   ##### #   # #   #    ###  #  # # ### ### # #
+
+Classedi.exe v 1.01 1 October 1993
+
+System   : Os/2 2.1
+
+Dev Tool : Watcom VX-Rexx v 1.01 patch level A
+
+Purpose  : Tool for adding/destroying SOM classes
+
+Author   : Filippo Sartori
+
+E-mail   : fisa@jet.uk
+           fisa@transp.jet.uk (temporary)
+           fisa@venus.record.unipd.it
+
+Version 1.00
+
+Files 
+      Classedi.exe
+      fisax.bmp
+      os2team.bmp
+
+
+
+How to use it :
+
+Classedi.exe is a PM program. For running it needs the VX-REXX runtime 
+library vrobj.dll.
+
+The application has a main window with scrolls bar and 6 buttons aside.
+The window shows the name of all the classes of the system.
+
+REFRESH
+If something has chenged the number of classes in the system this button
+will cause classedi to reread the entire list.
+
+CREATE 
+If you select one item in the window and the you press CREATE, the program
+will create an instance of the choosen class.
+i.e if you choose the calss folder then the program will create a folder...
+
+De Register Class
+As the name tells this button will cause the selected class to be erased
+from the system. The DLL of the SOM will not be deleted and therefore will
+remain in the OS2/dll directory.
+
+Register Class
+This is the most crytical function of the program and also the less usefull.
+It allows you to install a new class by specifying the os2 dll directory,
+the file-name of the dll (path +name) and the name of the class.
+But since the name of the class is somewhere inside the DLL then you must
+know it before using this program. However all the new som extensions are
+provided with an installation procedure.
+
+EXIT
+Exit the program
+
+ABOUT
+About me and our group and the program version....
+
+
+WARRANTY
+
+I release this program as freeware. I therefore don`t give any warranty
+whatsoever about its reliability. The product is given as is without any 
+form of support.
+
+USE OF THE PROGRAM 
+
+The program if badly used can cause seriously problems in your beloved OS/2.
+So use it only if you know what you are doing. I coded it to provide a tool 
+to remove the buggy som that sometime I find in internet. 
+For instance if you have installed WPZip ( the SOM that enables you to list
+the content of a zipfile ) and you find that your system is becoming crazy,
+then normally you have to hope that who provided you with the SOM also gave
+you a disinstallation program. If not then you could try to delete the DLL, 
+and so going into a lot of trouble. Now if you use classedi, you can easily
+delete the class from the system saving your poor OS/2.
+
+
+LONG LIFE TO OS/2
+DEATH TO MS programs
+
+HOPE TO SEE A DAY WHEN THE NAME MS HAS DISAPPEARED FROM THE MAGAZINE FOREVER!
+
+
+
